@@ -1,0 +1,53 @@
+
+
+* {
+    box-sizing: border-box;
+    
+    
+}
+div {
+    display: block;
+}
+
+.page-header{
+	background-color: orange;
+	
+	
+	
+}
+.logo{
+	width: 220px;
+	background-color: orange;
+	float: left;
+	
+	
+
+}
+.main-nav{
+	padding: 12px;
+    border: 1px solid transparent;
+    display: inline-block;
+    float: right;
+    text-decoration: underline;
+    cursor: auto;
+    width: 546px;
+}
+.promo-slogan{
+}
+
+.container {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 940px;
+}
+
+.main-nav li {
+	display: inline-block;
+	
+}
+h2 {
+	    display: block;
+	    font-weight: bold;
+
+
+}
