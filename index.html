@@ -1,163 +1,195 @@
-<!DOCTYPE html> 
-<html lang="ru"> 
-<head> 
-<meta charset="UTF-8"> 
-<link rel="stylesheet" href="style.css">
-<title>Спецтех24</title> 
-</head> 
-<body> 
-<header class="page-header"> 
-	<div class="container"> 
-  	<a href="" class="logo"> 
-    	<img src="http://placehold.it/50x40" alt="logo" class="logo-img"> 
-    	<span class="logo-text"><b>Спецтех</b>24</span> 
-  	</a> 
-    <nav class="main-nav"> 
-    	<ul> 
-    		<li><a href="">О компании</a></li> 
-    		<li><a href="">Каталог</a></li> 
-    		<li><a href="">Портфолио</a></li> 
-    		<li><a href="">Контакты</a></li> 
-    		<li><div class="order-call"><a href="">Заказать звонок</a></div></li> 
-    	</ul> 
-    </nav> 
-  </div> 
-</header> 
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Спецтех24</title>
+</head>
+<body>
+<header class="page-header">
+  <div class="container">
+    <a href="#" class="logo">
+      <img class="logo-img" src="img/logo_icon.png" alt="logo">
+      <span class="logo-text"><strong>Спецтех</strong>24</span>
+    </a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#">О компании</a></li>
+        <li><a href="#">Каталог</a></li>
+        <li><a href="#">Портфолио</a></li>
+        <li><a href="#">Контакты</a></li>
+        <li><a href="#" class="order-call">Заказать звонок</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
 <main>
-<div class="container"> 
- <div class="promo">
-  <p class="promo-slogan">ВМЕСТЕ МЫ СПРАВИМСЯ!</p>
-  <h1 class="promo-title">Спецтех24 - это сеть пунктов аренды спецтехники Сат, оборудования и специализированных инструментов для выполнения большинства видов работ.</h1>
-  <batton class="promo-btn">Перейти в каталог</batton>
- </div>
-</div>
+  <div class="promo text-center">
+    <div class="container">
+      <p class="promo-slogan">Вместе мы справимся!</p>
+      <h1 class="promo-title">Спецтех24 - это сеть пунктов аренды спецтехники Сат, оборудования и специализированных инструментов для выполнения большинства видов работ.</h1>
+      <button class="promo-btn">Перейти в каталог</button>
+    </div>
+  </div>
+
+  <section class="consult">
+    <div class="container">
+      <legend class="feedback-title">Закажите бесплатную консультацию по подбору подходящей техники</legend>
+      <form class="consult__form">
+        <input type="text" placeholder="Как вас зовут?">
+        <input type="tel" placeholder="Введите телефон">
+        <input type="text" placeholder="Выберите дату">
+        <button class="order-btn">Заказать консультацию</button>
+      </form>
+    </div>
+  </section>
+
+  <div class="advantages">
+    <div class="container">
+    <!-- Попраавить блок с псевдоэлементами -->
+      <div class="advantages-item">
+        <img src="img/content/advantages_item1.png" alt="" class="advantages-item-img" />
+        <p class="advantages-item-paragraph">Техника проходит обязательное обслуживание перед каждым выездом</p>
+      </div>
+      <div class="advantages-item">
+        <img src="img/content/advantages_item2.png" alt="" class="advantages-item-img" />
+        <p class="advantages-item-paragraph">Все машины оборудованы спец.сигналами, для предупреждения аварий</p>
+      </div>
+      <div class="advantages-item">
+        <img src="img/content/advantages_item3.png" alt="" class="advantages-item-img" />
+        <p class="advantages-item-paragraph">Привезем модные строительные ограждения к каждому заказу от 20 000</p>
+      </div>
+      <div class="advantages-item">
+        <img src="img/content/advantages_item4.png" alt="" class="advantages-item-img" />
+        <p class="advantages-item-paragraph">С техникой приедут квалифицированные операторы и водители</p>
+      </div>
+    </div>
+  </div>
+
+  <section class="deals stripe">
+    <div class="container">
+      <div class="row">
+        <div class="column3 deals-menu">
+        <h2>Вся техника</h2>
+        <ul>
+          <li>
+            <a href="#">Гусеничные эскалаторы</a>
+          </li>
+          <li>
+            <a href="#">Колесные эскалаторы</a>
+          </li>
+          <li>
+            <a href="#">Мини-эскалаторы</a>
+          </li>
+          <li>
+            <a href="#">Автокраны</a>
+          </li>
+          <li>
+            <a href="#">Фронтальные погрузчики</a>
+          </li>
+          <li>
+            <a href="#">Навесное оборудование</a>
+          </li>
+          <li>
+            <a href="#">Дизельгинераторы</a>
+          </li>
+        </ul>
+      </div>
+      <div class="column9 deals-table">
+        <h2>Спецпредложения</h2>
+        <table>
+          <tbody>
+            <tr>
+              <th>Позиция для аренды</th>
+              <th>За смену</th>
+              <th>За неделю</th>
+              <th>За месяц</th>
+            </tr>
+            <tr>
+              <td>Мини-эскаватор CAT</td>
+              <td>5 000</td>
+              <td>25 000</td>
+              <td>60 000</td>
+            </tr>
+            <tr>
+              <td>Мини-самосвал MOUSE</td>
+              <td>3 000</td>
+              <td>15 000</td>
+              <td>40 000</td>
+            </tr>
+            <tr>
+              <td>Мини-эскаватор CAT</td>
+              <td>5 000</td>
+              <td>25 000</td>
+              <td>60 000</td>
+            </tr>
+            <tr>
+              <td>Мини-эскаватор CAT</td>
+              <td>5 000</td>
+              <td>25 000</td>
+              <td>60 000</td>
+            </tr>
+             <tr>
+              <td>Мини-эскаватор CAT</td>
+              <td>5 000</td>
+              <td>25 000</td>
+              <td>60 000</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <div class="about stripe">
+    <div class="container">
+      <section class="numbers">
+        <h2>Спецтех в цифрах</h2>
+        <ul class="numbers-items">
+          <li><span class="numbers-list">16</span>Лет работы</li>
+          <li><span class="numbers-list">715</span>Объектов построено</li>
+          <li><span class="numbers-list">108</span>Едениц техники</span></li>
+          <li><span class="numbers-list">500+</span>Довольных клиентов
+          </li>
+        </ul>
+      </section>
+      <section class="reviews">
+        <h2>Нас рекомендуют клиенты</h2>
+        <div class="reviews-item">
+          <img src="img/content/reviews-item1.jpg" alt="photo">
+          <blockquote>Спецтех24 - это надежные партнеры нашей компании, которые всегда выполняют работу быстро и за разумные деньги. Благодарим за сотрудничество и рекомендуем.<br><cite class="quote">Оля Вольт, Реал-Строй</cite></blockquote>
+        </div>
+        <div class="reviews-item">
+          <img src="img/content/reviews-item3.jpg" alt="photo">
+          <blockquote>Все виды работ, предусмотренные договором, компания выполнила на высоком профессиональном уровне, качественно, в срок,в соответствии с требованиями. OOO «ТНТ» рекомендует.<br><cite>Григорий Безымянных, ТНТ</cite></blockquote>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div id="map_canvas"></div>
 </main>
 
-<section class="consult"> 
-	<div class="container"> 
-    <h3 class="consult-title">Закажите бесплатную консультацию по подбору подходящей техники</h3>
-      
-      <form class="name">
-        <p>
-          <input name="Как вас зовут?">
-        </p>
-      </form> 
-      
-	<form class="number">
-      <p>
-        <input name="Номер для связи">
-      </p>
-     </form> 
-      
-	<form class="date">
-      <p>
-        <input name="Выберите дату">
-      </p>
-    </form>
-	<button class="order-btn"><b>Заказать консультацию</b></button> 
-	</div> 
-</section> 
-  
-<div class="advantages"> 
-	<div class="container"> 
-		<div class="advantages-item advantages-item-tools"> 
-         	<img src="#" alt="" class="advantages-item-tools-img" />
-			<p>Техника проходит обязательное обслуживание перед каждым выездом</p> 
-		</div> 
-		<div class="advantages-item advantages-item-work"> 
-          	<img src="#" alt="" class="advantages-item-work-img" />
-			<p>Все машины оборудованы спец.сигналами, для предупреждения аварий</p> 
-		</div> 
-		<div class="advantages-item advantages-item-border"> 
-		</div> 
-      		<img src="#" alt="" class="advantages-item-border-img" />
-			<p>Привезем модные строительные ограждения к каждому заказу от 20 000</p> 
-		<div class="advantages-item advantages-item-worker"> 
-          	<img src="#" alt="" class="advantages-item-worker-img" />
-			<p>С техникой приедут квалифицированные операторы и водители</p> 
-		</div> 
-		</div> 
-</div> 
-<div class="technic-and-offers">
-	<div class="container">
-		<nav class="technic">
-          <h3 class="technic-title">Вся техника</h3>
-          <ul class="technic-items">
-            <li><a href="">Гусеничные эскалаторы</a></li>
-          	<li><a href="">Колесные эскалаторы</a></li>
-          	<li><a href="">Мини-эскалаторы</a></li>
-          	<li><a href="">Автокраны</a></li>
-          	<li><a href="">Фронтальные погрузчики</a></li>
-          	<li><a href="">Навесное оборудование</a></li>
-          	<li><a href="">Дизельгинераторы</a></li>
-          </ul>
-		</nav>
-	</div>
-  	<div class="container">
-  		<nav class="offers">
-          <h3 class="offers-title">Спецпредложения</h3>
-          <ul class="offers-items">
-          	<li></li>
-          	<li></li>
-          	<li></li>
-          	<li></li>
-          	<li></li>
-          </ul>
-  		</nav>
-  	</div>
-    <div class="container">
-     <div class="numbers-and-reviews">
-  		<section class="numbers">
-          <h2 class="numbers-title">Спецтех в цифрах</h2>
-          <ul class="numbers-items">
-            <li>16<span class="numbers-list">Лет работы</span></li>
-          	<li>715<span class="numbers-list">Объектов построено</span></li>
-          	<li>108<span class="numbers-list">Едениц техники</span></li>
-          	<li>500+<span class="numbers-list">Довольных клиентов</span></li>
-          </ul>
-  		</section>
-  	</div>
-  </div>
-   <div class="container">
-      <section class="reviews">
-        <h2 class="reviews-title">Нас рекомендуют клиенты</h2>
-        <ul class="reviews-items">
-          <li>
-            <div class="reviews">
-	<blockquote cite="#"class="quote"><p>Спецтех24 - это надежные партнеры нашей компании, которые всегда выполняют работу быстро и за разумные деньги. Благодарим за сотрудничество и рекомендуем.</p><cite>Виктор Вольт, 220вольт</cite></blockquote>
-    <a href="#" class="oll-reviews">Читать все отзывы</a>
-            </div></li>
-          <li>
-            <div class="reviews">
-	<blockquote cite="#"class="quote"><p>Спецтех24 - это надежные партнеры нашей компании, которые всегда выполняют работу быстро и за разумные деньги. Благодарим за сотрудничество и рекомендуем.</p><cite>Виктор Вольт, 220вольт</cite></blockquote>
-    <a href="#" class="oll-reviews">Читать все отзывы</a>
-            </div></li>
-        </ul>
-        </div>
-  </div>
-  
-  <div id="map_canvas"></div>
-  
+<footer class="page-footer">
+  <div class="container clearfix">
+    <a href="index.html" class="logo pull-left">
+      <img class="logo-img" src="img/icons/logo_white_icon.png" alt="logo">
+      <span class="logo-brand">
+      <strong class="footer">Спецтех</strong>24</span>
+      </a>
+  <nav class="main-nav pull-right">
+    <ul>
+      <li><a href="index.html">О компании</a></li>
+      <li><a href="catalog.html">Каталог</a></li>
+      <li><a href="portfolio.html">Портфолио</a></li>
+      <li><a href="contacts.html">Контакты</a></li>
+      <li><div class="order-call"><a href="">Заказать звонок</a></div></li>
+    </ul>
+  </nav>
 </div>
+</footer>
 
-<footer> 
-	<div class="container"> 
-		<div class="footer-logo"> 
-			<img src="http://placehold.it/50x40" alt="logo"> 
-				<a href=""><b>Спецтех</b>24</a> 
-		</div> 
-	<nav class="footer-nav"> 
-		<ul> 
-			<li><a href="">О компании</a></li> 
-			<li><a href="">Каталог</a></li> 
-			<li><a href="">Портфолио</a></li> 
-			<li><a href="">Контакты</a></li> 
-			<li><div class="order-call"><a href="">Заказать звонок</a></div></li> 
-		</ul> 
-	</nav> 
-</div> 
-</footer> 
-
-</body> 
+</body>
 </html>
