@@ -23,6 +23,8 @@ a {
   font-size: 16px;
   text-decoration: none;
   color: #000;
+  display: inline-block;
+  
 }
 .container {
   overflow: hidden;
@@ -68,6 +70,7 @@ h1 {
   float: right;
   padding: 15px;
   font-size: 0;
+
 }
 .main-nav li a:hover {
   background-color: #ffe184;
@@ -78,12 +81,25 @@ h1 {
 }
 .main-nav li {
   display: inline-block;
+  
+  
 }
 .main-nav a {
   padding: 10px 20px;
   text-decoration: none;
+  
 }
 .main-nav a:hover {
+}
+
+.order-call {
+  padding: 10px 20px;
+  background-color: #ffcd34;
+  display: inline-block;
+  font-size: 16px;
+
+
+   
 }
 
 
@@ -442,6 +458,34 @@ footer {
   margin-top: 15px;
 }
 
+/*catalog*/
+
+
+/*background-image: url(http://demo.epixx.ru/sp24-3/img/bg/bg_catalog.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;*/
+  
+.catalog-header {
+  background-image: url(tractor-promo.jpg);
+  padding: 125px 0 130px;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+
+  
+}
+
+.rent {
+  margin-top: 35px;
+  margin-bottom: 40px;
+  color: #ffcd34;
+  font-size: 24px;
+}
+
+span {
+  font-size: 16px;
+  color: #fff;
+}
 
 
 
