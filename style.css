@@ -1,10 +1,10 @@
 
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "PT sans";
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT sans";
 }
 body {
   font-family: sans-serif; 
@@ -46,7 +46,6 @@ a {
 }*/
 
 .header {
-  display: block;
   background-color: #ffcd34;
   overflow: hidden;
   margin-bottom: 35px;
@@ -95,15 +94,11 @@ h1 {
 .order-call {
   padding: 10px 20px;
   background-color: #ffcd34;
-  display: inline-block;
   font-size: 16px;
-
-
-   
 }
 
 
-
+/*
 .promo-slogan{
   text-transform: uppercase;
   text-align: center;
@@ -111,12 +106,11 @@ h1 {
   font-size: 44px;
   font-weight: bold;
   
-}
+}*/
 .promo {
   background-image: url(tractor-promo.jpg);
   padding: 125px 0 130px;
   color: #fff;
-  position: relative;
   background-size: cover;
   background-position: center;
 }
@@ -139,18 +133,18 @@ h1 {
   background-color: transparent; 
 }
 .promo-btn:before {
-    content: "";
-    display: inline-block;
-    width: 13px;
-    height: 19px;
-    background-image: url(../img/icons/arrow_right_icon.png);
-    background-size: 100%;
-    position: absolute;
-    right: 10px;
-    top: 9px;
+  content: "";
+  display: inline-block;
+  width: 13px;
+  height: 19px;
+  background-image: url(../img/icons/arrow_right_icon.png);
+  background-size: 100%;
+  position: absolute;
+  right: 10px;
+  top: 9px;
 }
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 .consult {
   background-color: #202e3b;
@@ -168,17 +162,11 @@ h2 {
 
 input {
   padding: 10px 20px;
-  margin-bottom: 40px;
-  height: 100%;
   background-color: #202e3b;
   border: 1px solid #ffcd34;
-  border-radius: 0;
   color: #ffffff;
   font-family: 'PT Sans', sans-serif;
   font-size: 16px;
-  box-sizing: border-box;
-  outline: none;
-  box-shadow: none;
   margin-right: 15px;
   font-weight: bold;
 
@@ -187,21 +175,15 @@ input {
 .order-btn {
   padding: 10px 20px;
   margin-bottom: 40px;
-  height: 100%;
   background-color: #ffcd34;
   border: 1px solid #ffcd34;
-  border-radius: 0;
   color: #202e3b;
   font-family: 'PT Sans', sans-serif;
   font-size: 16px;
-  box-sizing: border-box;
-  outline: none;
-  box-shadow: none;
   font-weight: bold;
 }
 
 .advantages {
-  overflow: hidden;
   background-color: #fff;
   padding: 30px 0;
 }
@@ -238,11 +220,6 @@ p {
   vertical-align: middle;
 }
 
-tbody {
-  display: table-row-group;
-  vertical-align: middle;
-  border-color: inherit;
-}
 
 .deals {
   padding: 20px 0 35px;
@@ -253,16 +230,10 @@ tbody {
 div[class*="column"] {
   float: left;
   padding: 10px;
-  box-sizing: border-box;
 }
 
 .column3 {
   width: 25%;
-}
-
-div {
-  display: block;
-  
 }
 
 .deals-menu li {
@@ -279,12 +250,6 @@ div {
 .deals-menu a {
   color: #202e3b;
   text-decoration: underline;
-}
-
-table {
-  display: table;
-  border-spacing: 2px;
-  border-color: #808080;
 }
 
 .deals-tible table{
@@ -317,20 +282,18 @@ th {
   padding: 25px 0 15px;
   position: relative;
   background-color: #202e3b;
-  overflow: hidden;
-  
 }
 
 .stripe:before {
-    content: "";
-    display: block;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 14px;
-    width: 100%;
-    background-image: linear-gradient(135deg, #ffcd34 35%, #000 35%, #000 65%, #ffcd34 65%);
-    background-size: 35px 14px;
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 14px;
+  width: 100%;
+  background-image: linear-gradient(135deg, #ffcd34 35%, #000 35%, #000 65%, #ffcd34 65%);
+  background-size: 35px 14px;
 }
 
 .stripe {
